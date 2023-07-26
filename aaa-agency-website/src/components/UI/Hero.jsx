@@ -32,16 +32,38 @@ const Hero = () => {
                             
                             </div>
                             <p 
-                                data-aos="fade-left"
-                                data-aos-duration="1500"
-                                className="flex gap-2 text-headingColor font-[500] text-[15px] leading-7 sm:pl-15 sm:pr-10"
+                            data-aos="fade-left"
+                            data-aos-duration="1500"
+                            className="flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10"
                             >
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-                                    Fusce vestibulum cursus sapien vel venenatis. sadfasdfasdfasdf
-                                    asdfasdfasdfasdsd
+                                <span>
+                                    <i class="ri-apps-2-line"></i>
+                                </span>
+                             { /*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */ } 
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+                            Fusce vestibulum cursus sapien vel venenatis. sadfasdfasdfasdf
+                            asdfasdfasdfasdsd
                             </p>
+                        <div className="flex items-center gap-9 mt-14">
+                            <span className="text-smallTextColor text-[15px] font-[600]">
+                                Follow us 
+                            </span>
+
+                            <span> 
+                                <a href='#linkedIn' className="text-smallTextColor text-[15px] font-[600]"> <i className="ri-linkedin-line"></i></a>
+                            </span>
+                            <span> 
+                                <a href='#instagram' className="text-smallTextColor text-[15px] font-[600]"> <i className="ri-instagram-line"></i></a>
+                            </span>
+                            <span> 
+                                <a href='#youtube' className="text-smallTextColor text-[15px] font-[600]"><i class="ri-discord-line"></i></a>
+                            </span>
+                
+                        </div>
                 </div>
                 { /* =========== hero left end ========== */}
+                { /* =============== Hero Img =============== */}
+                { /* =============== Hero Img End=============== */}
 
             </div>
         </div>
