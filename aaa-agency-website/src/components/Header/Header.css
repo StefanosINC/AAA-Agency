@@ -1,0 +1,12 @@
+/* Your other styles for .smallTextColor (initial state) */
+.smallTextColor {
+    color: #6B46C1; /* Set the initial text color */
+    background-color: transparent; /* Set the initial background color (if needed) */
+  }
+  
+  /* The darkPurple class for the hover state */
+  .darkPurple:hover {
+    background-color: #6B46C1; /* Set the background color to dark purple on hover */
+    color: #FFFFFF; /* Set the text color to white on hover */
+  }
+  

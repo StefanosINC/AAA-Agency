@@ -1,48 +1,22 @@
-/* App.css */
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  position: relative;
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Urbanist', sans-serif;
 }
 
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+.container{
+  max-width: 1170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
 }
-
-.hello-world-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hello-world-text {
-  font-size: 40px;
-  color: white;
-  text-align: center;
-  font-weight: bold; 
-}
-
-.Nav-Bar-Section {
-  position: absolute;
-  top: 20px; /* Adjust the top position as needed */
-  right: 20px; /* Adjust the right position as needed */
-}
-
-.NavBarLinks {
-  margin: 0 10px; /* Add some margin between the links */
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.NavBarLinks:hover {
-  text-decoration: underline; /* Add underline on hover (optional) */
+section {
+  padding: 50px 0;
 }
