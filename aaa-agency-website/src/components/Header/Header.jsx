@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Header/Header.css';
-
+import logo from  '../../assets/images/muhib.png'
 const Header = () => {
   return (
     <header className='w-full h-[80px] leading-[80px] flex items-center'>
@@ -8,9 +8,10 @@ const Header = () => {
         <div className='flex items-center justify-between'>
           {/* ===================================== logo */}
           <div className='flex items-center gap-[10px]'>
-            <span className='w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full flex items-center justify-center'>
-              M
+          <span className='w-[35px] h-[35px] bg-primaryColor rounded-full flex items-center justify-center'>
+          <img src={logo} alt="Logo" className="w-[100%] h-[100%] object-cover" />
             </span>
+
             <div className='leading-[20px]'>
               <h2 className="text-xl text-smallTextColor font-[]">SimpleStack</h2>
               <p className='text-smallTextColor text-[14px] font-[500]'>
@@ -31,7 +32,7 @@ const Header = () => {
           {/* =========== Menu End */}
           {/* =============== menu right ========== */}
           <div className="flex items-center gap-4">
-            <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] darkPurple hover:font-[500] ease-in duration-300'>
+            <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] darkPurple hover:font-[500] ease-in duration-300' style={{ backgroundColor: 'rgba(0, 108, 230, 1.0)' }}>
               <i className="ri-send-plane-line"></i> Lets Talk
             </button>
             <span className='text-2xl text-smallTextColor md:hidden cursor-pointer'>

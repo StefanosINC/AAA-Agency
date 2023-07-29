@@ -1,0 +1,40 @@
+/* Services.css */
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .carousel-container::after {
+    /* Create an additional space to ensure the animation loops */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-container .carousel-word {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    animation: carouselAnimation 20s linear infinite;
+  }
+  
+  .bg-gray-200 {
+    background-color: #eeeeee; /* Replace with your desired grey color */
+    border-radius: 10px; /* Add rounded corners to the gray box */
+  }
+  
+  .site-container {
+    max-width: 1200px; /* Adjust this to the desired max width for your site */
+    margin: 0 auto; /* Center the site container */
+    /* Add any other global styles for your site container */
+  }
+  
+  
+  
